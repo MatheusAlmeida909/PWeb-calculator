@@ -19,9 +19,20 @@ input{
     border-radius: 5px;
 }
 
+.operations{
+    display: flex;
+    flex-direction: row;
+}
+
 button{
     background-color: #4a70ecbe;
     width: 40px;
     height: 40px;
+    margin: 0px 5px 0px 5px ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight:700;
     border-radius: 5px;
 }
