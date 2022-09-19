@@ -10,17 +10,17 @@
 <body>
     <main>
         <div>
-            <input type="number"/>
-            <input type="number"/>
+            <input id="left-num"  type="number" placeholder="Insert a number"/>
+            <input id="right-num" type="number" placeholder="Insert a number"/>
         </div>
         <div class="operations">
-            <button>+</button>
-            <button>-</button>
-            <button>x</button>
-            <button>/</button>
+            <button id="add"      onclick="calculate()">+</button>
+            <button id="subtract" onclick="calculate()">-</button>
+            <button id="multiply" onclick="calculate()">X</button>
+            <button id="divide"   onclick="calculate()">/</button>
         </div>
         <div>
-            <input type="number" readonly/>
+            <input id="result" type="number" placeholder="Result" readonly/>
         </div>
     </main>
 </body>
