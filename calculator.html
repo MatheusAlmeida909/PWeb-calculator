@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculator-style.css">
+    <script src="calculator-script.js"></script>
     <title> Calculadora</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
             <input id="right-num" type="number" placeholder="Insert a number"/>
         </div>
         <div class="operations">
-            <button id="add"      onclick="calculate()">+</button>
-            <button id="subtract" onclick="calculate()">-</button>
-            <button id="multiply" onclick="calculate()">X</button>
-            <button id="divide"   onclick="calculate()">/</button>
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">X</button>
+            <button onclick="divide()">/</button>
         </div>
         <div>
             <input id="result" type="number" placeholder="Result" readonly/>
